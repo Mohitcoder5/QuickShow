@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme{
+  --color-primary : #f85465;
+  --color-primary-dull : #D63854;
+}
+
+ *{
+  font-family: "Outfit", sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color: #787777 #1e1e1e;
+ }
+
+ body{
+  color: white;
+  background-color: #1e1e1e;
+ }
+
+.no-scrollbar{
+  scrollbar-width: none;
+} 
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+::-webkit-calender-picker-indicator {
+  filter: invert(1);
+}
