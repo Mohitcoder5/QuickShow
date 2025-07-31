@@ -15,24 +15,23 @@ export const assets = {
 }
 
 export const dummyTrailers = [
-  {
-    image: "https://img.youtube.com/vi/WpW36ldAqnM/maxresdefault.jpg",
-    videoUrl: 'https://www.youtube.com/watch?v=WpW36ldAqnM'
-  },
-  {
-    image: "https://img.youtube.com/vi/-sAOWhvheK8/maxresdefault.jpg",
-    videoUrl: 'https://www.youtube.com/watch?v=-sAOWhvheK8'
-  },
-  {
-    image: "https://img.youtube.com/vi/1pHDWnXmK7Y/maxresdefault.jpg",
-    videoUrl: 'https://www.youtube.com/watch?v=1pHDWnXmK7Y'
-  },
-  {
-    image: "https://img.youtube.com/vi/umiKiW4En9g/maxresdefault.jpg",
-    videoUrl: 'https://www.youtube.com/watch?v=umiKiW4En9g'
-  },
+    {
+        image: "https://img.youtube.com/vi/WpW36ldAqnM/maxresdefault.jpg",
+        videoUrl: 'https://www.youtube.com/watch?v=WpW36ldAqnM'
+    },
+    {
+        image: "https://img.youtube.com/vi/-sAOWhvheK8/maxresdefault.jpg",
+        videoUrl: 'https://www.youtube.com/watch?v=-sAOWhvheK8'
+    },
+    {
+        image: "https://img.youtube.com/vi/1pHDWnXmK7Y/maxresdefault.jpg",
+        videoUrl: 'https://www.youtube.com/watch?v=1pHDWnXmK7Y'
+    },
+    {
+        image: "https://img.youtube.com/vi/umiKiW4En9g/maxresdefault.jpg",
+        videoUrl: 'https://www.youtube.com/watch?v=umiKiW4En9g'
+    },
 ]
-
 
 const dummyCastsData = [
     { "name": "Milla Jovovich", "profile_path": "https://image.tmdb.org/t/p/original/usWnHCzbADijULREZYSJ0qfM00y.jpg", },
@@ -294,7 +293,7 @@ export const dummyDashboardData = {
 export const dummyBookingData = [
     {
         "_id": "68396334fb83252d82e17295",
-        "user": { "name": "Mohit", },
+        "user": { "name": "GreatStack", },
         "show": {
             _id: "68352363e96d99513e4221a4",
             movie: dummyShowsData[0],
@@ -307,7 +306,7 @@ export const dummyBookingData = [
     },
     {
         "_id": "68396334fb83252d82e17295",
-        "user": { "name": "Mohit", },
+        "user": { "name": "GreatStack", },
         "show": {
             _id: "68352363e96d99513e4221a4",
             movie: dummyShowsData[0],
@@ -320,7 +319,7 @@ export const dummyBookingData = [
     },
     {
         "_id": "68396334fb83252d82e17295",
-        "user": { "name": "Mohit", },
+        "user": { "name": "GreatStack", },
         "show": {
             _id: "68352363e96d99513e4221a4",
             movie: dummyShowsData[0],
@@ -331,4 +330,4 @@ export const dummyBookingData = [
         "bookedSeats": ["A1", "A2","A3"],
         "isPaid": true,
     },
-] 
+]
